@@ -180,11 +180,32 @@ The same principle applied in the reverse direction: the `TX` of the second mach
 > ⚠️ Even today, the `TX` and `RX` labels cause frequent confusion in electrical engineering—especially when dealing with RS-232 or microcontroller UART connections.  
 > Always remember: **`TX` and `RX` refer to the device's terminals, not the wire itself!**
 
+<figure>
+  <div style="display: flex; gap: 12px; align-items: center; justify-content: center;">
+    <img src="https://maxclerkwell.github.io/svg_storage/fundamentals/transmission/single_wire_current_loop/closed.svg" alt="Logic 0 - current flows" width="40%"/>
+    <img src="https://maxclerkwell.github.io/svg_storage/fundamentals/transmission/single_wire_current_loop/open.svg" alt="Logic 1 - no current" width="40%"/>
+  </div>
+  <figcaption style="text-align: center; margin-top: 8px;">
+    Single transmission line sending a 0 (switch closed, current flows) and 1 (switch open, no current).
+  </figcaption>
+</figure>
+
+
 
 ### 1.1) Further Readings and Other Sources
-- [The Importance of Practice in Learning](https://www.sciencedirect.com/science/article/pii/S036013151300062X)
-- "The Art of Learning" by Josh Waitzkin
-- [How to Learn Effectively: 5 Key Strategies](https://www.edutopia.org/article/5-research-backed-learning-strategies)
+
+- [The Telegraph That Brought Down the Iron Curtain](https://spectrum.ieee.org/gauss-weber-telegraph)  
+  *IEEE Spectrum* article exploring the historical impact and technical design of the Gauss-Weber electromagnetic telegraph.
+
+- [The ASCII Table and Standard Explained](https://www.asciitable.com/)  
+  A detailed and interactive reference for ASCII, including control codes and printable characters, useful for understanding teletype encoding.
+
+- *Code: The Hidden Language of Computer Hardware and Software* by Charles Petzold  
+  A highly accessible book that walks through the evolution from relays to logic gates and encoding systems like ASCII and Unicode.
+
+- [Current Loops: The Forgotten Interface](https://www.eetimes.com/current-loops-the-forgotten-interface/)  
+  A technical reflection on current loop interfaces, their role in early computing, and their continued use in industrial applications.
+
 
 ## 2) Tasks
 
