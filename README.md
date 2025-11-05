@@ -1,6 +1,7 @@
 <!---
 {
-  "depends_on": ["https://github.com/STEMgraph/8fd3f76a-24d1-460b-9f88-9ff63809e8f5"],
+  "id": "b6701722-9f1e-4fbb-9e1b-6f2dd389f179",
+  "depends_on": ["8fd3f76a-24d1-460b-9f88-9ff63809e8f5"],
   "author": "Stephan Bökelmann",
   "first_used": "2025-03-31",
   "keywords": ["signal", "encoding", "transmission", "electrons"]
